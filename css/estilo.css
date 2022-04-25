@@ -1,38 +1,44 @@
 body {
-    margin-top: 30px;
-    margin-right: 50px;
-    margin-left: 50px;
-    font-family: Verdana, Arial, sans-serif ;
-    background-color: white;
-    color: black;
+    margin: 30px 50px 0px 50px;
+    font-family: Verdana, Arial, sans-serif; 
+    background-color: white; 
+    color: black
 }
-
 #logo {
-
     width: 450px;
     height: 125px;
 }
-
 footer {
-
-color: #009900;
-font-size: 90%;
-text-align: center; 
-
+    color:#009900; 
+    font-size:90%; 
+    text-align:center
 }
-
-
 h1 {
-    text-shadow: 2px 2px 4px black;
-    color: #62e751;
-    font-size: 250%;
-    text-align: center;
-
+    text-shadow: 2px 2px 4px #000000;
+    color:#62e751; 
+    font-size:250%; 
+    text-align:center
+}
+#textoprincipal {
+    font-family: Verdana, Arial, sans-serif; 
+    color: gray; 
+    font-size: 125%; 
+    text-align: justify
+}
+table {
+    font-family:Verdana, Arial, sans-serif; 
+    color:gray; 
+    font-size:100%; 
+    text-align:center;
+    margin-left:auto; 
+    margin-right:auto;
 }
 
-#textoprincipal{ 
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    color: gray;
-    font-size: 125%;
-    text-align: justify;
+#atleta {
+    width: 240px;
+    height: 200px;
+    float: left;
+}
+.biografia {
+    margin-left: 300px;
 }
